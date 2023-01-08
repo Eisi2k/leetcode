@@ -1,4 +1,4 @@
-#**Problem 00001**
+**#Problem 00001**
 
 Given an array of integers nums and an integer target, return indices of the two numbers such that they add up to target.
 
@@ -26,4 +26,4 @@ class Solution:
  
  Quick, simple solution but slow in execution, since here two lists are nested and thus the time is squared.
  
- <span style="color:red">some *Insert better solution:still to continue* text</span>
+<span style="color:red"> Insert better solution:still to continue </span>
