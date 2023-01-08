@@ -8,22 +8,22 @@ You can return the answer in any order.
 
 **Example 1:**
 
-Input: nums = [2,7,11,15], target = 9
-Output: [0,1]
-Explanation: Because nums[0] + nums[1] == 9, we return [0, 1].
+Input: nums = [2,7,11,15], target = 9\
+Output: [0,1]\
+Explanation: Because nums[0] + nums[1] == 9, we return [0, 1].\
 
 
 **First attempt**
 
 Nested loops
 
-class Solution:
-    def twoSum(self, nums: List[int], target: int) -> List[int]:
-            for i in range(len(nums)):
-                 for j in range(i+1, len(nums)):
-                    if nums[i] + nums[j] == target:
-                        return [i,j]
+class Solution:\
+    def twoSum(self, nums: List[int], target: int) -> List[int]:\
+            for i in range(len(nums)):\
+                 for j in range(i+1, len(nums)):\
+                    if nums[i] + nums[j] == target:\
+                        return [i,j]\
  
  Quick, simple solution but slow in execution, since here two lists are nested and thus the time is squared.
  
-<span style="color:red"> Insert better solution:still to continue </span>
+<span style="color:red"> Insert better solution: still to continue </span>
