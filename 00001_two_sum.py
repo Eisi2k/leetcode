@@ -19,6 +19,6 @@ class Solution:
                     if nums[i] + nums[j] == target:               # if sum is target ==> solution
                         return [i,j]
  
- Quick, simple solution but slow in execution, since here two lists are nested and thus the time is squared.
+ #Quick, simple solution but slow in execution, since here two lists are nested and thus the time is squared.
  
  #Insert better solution:still to continue
